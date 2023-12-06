@@ -28,6 +28,7 @@ Implementazione di "E-commerce VR" per rivoluzionare l'esperienza del nostro tea
 - Miglioramento dell'esperienza utente
 
 ## Contatti
-Per domande, contattare il team di progetto.
-
-Grazie per contribuire al futuro del nostro bar della scuola con il progetto "E-commerce VR"! 🚀🎉
+Manuel Provenzi
+Mirko Molteni
+Filippo Molteni
+Piacentini Alessandro
