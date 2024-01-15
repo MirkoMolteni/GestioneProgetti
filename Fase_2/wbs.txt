@@ -1,56 +1,90 @@
-1.Iniziazione del Progetto
-1.1 Definizione degli obiettivi del progetto
-1.2 Pianificazione iniziale
-1.3 Stesura documenti di avvio
-1.3.1 Studio fattibilità
-1.3.2 Analisi contesto
-1.3.3 Analisi dei rischi
-1.3.4 Project Charter
+1. Iniziazione del Progetto
+    1.1 Definizione degli obiettivi del progetto
+    1.2 Pianificazione iniziale
+    1.3 Stesura documenti di avvio
+        1.3.1 Studio di fattibilità
+        1.3.2 Analisi contesto
+        1.3.3 Analisi dei rischi
+        1.3.4 Project Charter
 
-2.Analisi dei Requisiti
-2.1 Ricerca di mercato
-2.1.1 Analisi del settore dell'e-commerce VR
-2.1.2 Studio delle tendenze di mercato
-2.1.3 Identificazione del pubblico target
-2.2 Definizione dei requisiti funzionali
-2.2.1 Identificazione delle funzionalità di base
-2.2.2 Definizione delle caratteristiche di navigazione in ambito VR
-2.2.3 Valutazione sui possibili metodi di pagamento
-2.2.4 Gestione degli account utente
-2.2.5 Funzionalità di visualizzazione prodotti
-2.3 Definizione dei requisiti tecnici
-2.3.1 Requisiti hardware per l'esperienza VR
-2.3.2 Specifiche software e compatibilità
+2. Analisi dei Requisiti
+    2.1 Ricerca di mercato
+        2.1.1 Analisi del settore dell'e-commerce VR
+        2.1.2 Studio delle tendenze di mercato
+        2.1.3 Identificazione del pubblico target
+    2.2 Definizione dei requisiti funzionali
+        2.2.1 Identificazione delle funzionalità di base
+        2.2.2 Definizione delle caratteristiche di navigazione in ambito VR
+        2.2.3 Valutazione sui possibili metodi di pagamento
+        2.2.4 Gestione degli account utente
+        2.2.5 Funzionalità di visualizzazione prodotti
+    2.3 Definizione dei requisiti tecnici
+        2.3.1 Requisiti hardware per l'esperienza VR
+        2.3.2 Specifiche software e compatibilità
 
-3.Progettazione
-3.1 Progettazione dell'architettura VR
-3.1.1 Identificazione requisiti di performance
-3.1.2 Selezione Piattaforma VR
-3.1.3 Definizione architettura software
-3.1.4 Progettazione della navigazione vr
-3.1.5 Valutazione per una possibile scalabilità
-3.2 Progettazione dell'interfaccia utente
-3.2.1 Progettazione dell'ambiente virtuale
-3.2.2 Definizione della grafica
-3.3 Progettazione del database
-3.3.1 Creazione diagramma ER
-3.3.2 Creazione schema logico
-3.4 Progettazione della sicurezza
-3.5 Progettazione delle funzionalità di e-commerce
+3. Progettazione
+    3.1 Progettazione dell'architettura VR
+        3.1.1 Identificazione requisiti di performance
+        3.1.2 Selezione Piattaforma VR
+        3.1.3 Definizione architettura software
+        3.1.4 Progettazione della navigazione VR
+        3.1.5 Valutazione per una possibile scalabilità
+    3.2 Progettazione dell'interfaccia utente
+        3.2.1 Progettazione dell'ambiente virtuale
+        3.2.2 Definizione della grafica
+    3.3 Progettazione del database
+        3.3.1 Creazione diagramma ER
+        3.3.2 Creazione schema logico
+    3.4 Progettazione della sicurezza
+    3.5 Progettazione delle funzionalità di e-commerce
 
-4.Sviluppo del Software
-4.1 Sviluppo dell'ambiente VR
-4.1.1 Creazione dell'ambiente 3D (muro,piano,gravita,mesh)
-4.2 Sviluppo del front-end
-4.2.1 Interfaccia Utente VR
-4.2.1.1 Elementi visivi
-4.2.1.2 navigazione
-4.2.2 Elementi Interattivi
-4.2.2.1 Gesture
-4.2.2.2 Animazione
-4.2.3 Adattabilità a diverse piattaforme
-4.3 Sviluppo del back-end
-4.3.1 Gestione dei dati e del database
-4.3.2 Sicurezza e protezione dati
-4.4 Implementazione del database
-4.5 Integrazione dei sistemi
+4. Sviluppo del Software
+    4.1 Sviluppo dell'ambiente VR
+        4.1.1 Creazione dell'ambiente 3D (muro, piano, gravità, mesh)
+    4.2 Sviluppo del front-end
+        4.2.1 Interfaccia Utente VR
+            4.2.1.1 Elementi visivi
+            4.2.1.2 Navigazione
+        4.2.2 Elementi Interattivi
+            4.2.2.1 Gesture
+            4.2.2.2 Animazione
+        4.2.3 Adattabilità a diverse piattaforme
+    4.3 Sviluppo del back-end
+        4.3.1 Gestione dei dati e del database
+        4.3.2 Sicurezza e protezione dati
+    4.4 Implementazione del database
+    4.5 Integrazione dei sistemi
+
+5. Sviluppo del Contenuto VR
+    5.1 Creazione di modelli 3D
+        5.1.1 Definizione dei requisiti di modellazione
+        5.1.2 Scan degli oggetti da implementare per l'e-commerce
+        5.1.3 Modellazione 3D dettagliata
+    5.2 Creazione di ambienti VR
+        5.2.1 Creazione ambiente virtuale
+        5.2.2 Sviluppo ambienti immersivi
+    5.3 Creazione di oggetti virtuali
+        5.3.1 Identificazione e implementazione dei modelli creati
+        5.3.2 Creazione animazioni e dettagli
+    5.4 Integrazione del contenuto nel sistema VR
+        5.4.1 Integrazione con front-end
+    5.5 Installazione dell'ambiente VR
+
+6. Testing
+    6.1 Test funzionali
+        6.1.1 Test funzionalità base
+        6.1.2 Test scenari d'uso
+    6.2 Test di sicurezza
+        6.2.1 Analisi vulnerabilità
+    6.3 Test di prestazioni
+    6.4 Test dell'usabilità VR
+         6.4.1 Analisi comfort VR
+    6.5 Risoluzione Problemi
+
+7. Chiusura del Progetto
+    7.1 Valutazione delle performance
+    7.2 Documentazione finale
+        7.2.1 Documentazione di revisione e testing
+        7.2.2 Creazione Manuale utente
+        7.2.3 Raccolta di tutta la documentazione
+    7.3 Consegna del prodotto al committente
