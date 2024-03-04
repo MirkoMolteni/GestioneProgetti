@@ -4,24 +4,36 @@ left to right direction
 actor User as U
 
 rectangle "Login / Registrazione" {
-U --> (Effettuare il login)
-U --> (Effettuare la registrazione)
+    U --> (Effettuare il login)
+    U --> (Effettuare la registrazione)
+    U --> (Modifica Profilo)
+    U --> (Recupero Password)
 }
 
 rectangle "Movimento" {
-U --> (Muoversi all'interno dell'ambiente virtuale)
+    U --> (Muoversi all'interno dell'ambiente virtuale)
 }
 
 rectangle "Visionare il prodotto" {
-U --> (Visualizzare i prodotti disponibili nel negozio)
+    U --> (Visualizzare i prodotti disponibili nel negozio)
+    U --> (Ingrandire immagine)
+
 }
 
-rectangle "Aggiungere al carrello" {
-U --> (Aggiungere un prodotto al carrello virtuale)
-}
+rectangle "Gestione del carrello" {
+    U --> (Aggiungere un prodotto al carrello virtuale)
+    U --> (Modificare la quantità)
+    U --> (Rimozione prodotto dal carrello)
 
+
+}
+rectangle "Gestione degli ordini" {
+    U --> (Visualizzazione ordini)
+    U --> (Conferma ordini)
+    U --> (Gestione spedizione)
+}
 rectangle "Acquistare" {
-U --> (Completare l'acquisto dei prodotti presenti nel carrello)
+    U --> (Completare l'acquisto dei prodotti presenti nel carrello)
 }
 
 @enduml
