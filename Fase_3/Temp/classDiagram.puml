@@ -1,5 +1,4 @@
 @startuml classDiagram
-
 class Utente {
 -userId: int
 -username: String
