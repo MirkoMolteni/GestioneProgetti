@@ -1,6 +1,6 @@
 @startuml classDiagram
 
-class User {
+class Utente {
 -userId: int
 -username: String
 -password: String
@@ -12,7 +12,7 @@ class User {
 }
 
 
-class Product {
+class Prodotto {
 -productId: int
 -name: String
 -description: String
@@ -22,14 +22,14 @@ class Product {
 +getProductDetails(): String
 }
 
-class ShoppingCart {
+class Carello {
 -cartId: int
 -items: List +addItem(product: Product)
 +removeItem(product: Product)
 +getTotalPrice(): double
 }
 
-class Order {
+class Ordine {
 -orderId: int
 -user: User
 -products: List -totalPrice: double
@@ -37,7 +37,7 @@ class Order {
 +cancelOrder()
 }
 
-class Payment {
+class Pagamento {
 -paymentId: int
 -orderId: int
 -amount: double
@@ -45,10 +45,10 @@ class Payment {
 +processPayment(): boolean
 }
 
-User -- ShoppingCart
-ShoppingCart -- Product
-User -- Order
-Order -- Product
-Order -- Payment
+Utente -- Carello
+Carello -- Prodotto
+Utente -- Ordine
+Ordine -- Prodotto
+Ordine -- Pagamento
 
 @enduml

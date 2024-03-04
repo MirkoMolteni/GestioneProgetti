@@ -1,7 +1,7 @@
 @startuml useCase
 left to right direction
 
-actor User as U
+actor Utente as U
 
 rectangle "Login / Registrazione" {
 U --> (Effettuare il login)
