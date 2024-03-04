@@ -1,0 +1,29 @@
+@startuml
+actor User
+participant "Applicazione VR" as App
+participant "Server" as Server
+participant "Database" as DB
+participant "Servizio di pagamento" as PaymentService
+
+User -> App: Utilizza l'applicazione
+App -> Server: Richiesta di accesso/login
+Server -> DB: Verifica credenziali
+DB --> Server: Risposta
+Server --> App: Accesso autorizzato
+User -> App: Esplorazione ambiente virtuale
+User -> App: Seleziona prodotto
+App -> Server: Richiesta dettagli prodotto
+Server -> DB: Recupero dettagli prodotto
+DB --> Server: Dettagli prodotto
+Server --> App: Invio dettagli prodotto
+User -> App: Aggiunge prodotto al carrello
+App -> Server: Aggiunta prodotto al carrello
+User -> App: Procede con il checkout
+App -> Server: Richiesta di checkout
+Server -> PaymentService: Avvia processo di pagamento
+PaymentService -> User: Richiede dettagli di pagamento
+User -> PaymentService: Fornisce dettagli di pagamento
+PaymentService --> Server: Conferma pagamento
+Server --> App: Conferma ordine
+App --> User: Conferma di acquisto completato
+@enduml

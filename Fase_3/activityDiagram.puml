@@ -1,0 +1,22 @@
+@startuml
+start
+:Utente utilizza l'applicazione VR;
+repeat
+    :Utente accede all'ambiente virtuale;
+repeat while (Utente autenticato?) is (No)
+->Si;
+:Utente esplora l'ambiente virtuale;
+repeat
+    :Utente seleziona un prodotto;
+repeat while (Prodotto esistente?) is (No)
+->Si;
+:Utente aggiunge il prodotto al carrello;
+:Utente procede con il checkout;
+:Utente fornisce dettagli per il pagamento;
+if (Pagamento confermato?) then (Sì)
+    :Ordine inviato con successo;
+else (No)
+    :Pagamento fallito;
+endif
+stop
+@enduml
