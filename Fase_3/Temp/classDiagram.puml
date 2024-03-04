@@ -1,0 +1,54 @@
+@startuml classDiagram
+
+class User {
+-userId: int
+-username: String
+-password: String
+-name: String
+-surname: String
+-email: String
+-phone: String
++getUserDetails(): String
+}
+
+
+class Product {
+-productId: int
+-name: String
+-description: String
+-price: double
+-nameObj: String
+-image: String
++getProductDetails(): String
+}
+
+class ShoppingCart {
+-cartId: int
+-items: List +addItem(product: Product)
++removeItem(product: Product)
++getTotalPrice(): double
+}
+
+class Order {
+-orderId: int
+-user: User
+-products: List -totalPrice: double
++confirmOrder()
++cancelOrder()
+}
+
+class Payment {
+-paymentId: int
+-orderId: int
+-amount: double
+-paymentStatus: String
++processPayment(): boolean
+}
+
+User -- ShoppingCart
+ShoppingCart -- Product
+User -- Order
+Order -- Product
+Order -- Payment
+
+@enduml
