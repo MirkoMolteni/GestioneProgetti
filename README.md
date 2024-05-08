@@ -13,7 +13,7 @@ Implementazione di "E-commerce VR".
 1. **Installazione App VR:**
    - Seguire le istruzioni per configurare l'applicazione E-commerce VR.
 
-2. **Esplorare il Bar Virtuale:**
+2. **Esplorare il negozio Virtuale:**
    - Avviare l'applicazione e immergersi nell'ambiente tridimensionale.
 
 3. **Selezione Prodotti:**
