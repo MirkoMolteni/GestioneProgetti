@@ -1,10 +1,10 @@
 # E-commerce VR - README
 
 ## Obiettivo
-Implementazione di "E-commerce VR" per rivoluzionare l'esperienza del nostro team del bar della scuola, migliorando comunicazione e operazioni.
+Implementazione di "E-commerce VR".
 
 ## Funzionalità Principali
-- Esplorazione virtuale del bar
+- Esplorazione virtuale del negozio
 - Selezione e aggiunta prodotti al carrello
 - Dettagli sugli ingredienti
 - Formazione integrata
